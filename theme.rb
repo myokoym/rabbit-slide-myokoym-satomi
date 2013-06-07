@@ -114,10 +114,10 @@ match("**", BlockQuote) do |quotes|
   end
 end
 
-@slide_logo_image ||= "shogi-icon.png"
+@slide_logo_image ||= "kyo-icon.png"
 include_theme("slide-logo")
 
-@icon_images = ["shogi-icon.png"]
+@icon_images = ["kyo-icon.png"]
 include_theme("icon")
 
 @slide_footer_info_left_text ||= canvas.title.gsub(/\n/, '')
